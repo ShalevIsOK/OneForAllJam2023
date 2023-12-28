@@ -4,12 +4,15 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class KeyboardMovementInput : MonoBehaviour
+public class KeyboardMovementInput : MonoBehaviour, IHasVelocity
 {
     private MoveStates moveType;
     [SerializeField] private float speed = 1f;
     [SerializeField] private PlayerInput playerInput;
     private Rigidbody2D rb2d;
+
+    Vector3 IHasVelocity.Velocity => rb2d.velocity;
+
 
     private bool up = false;
     private bool down = false;

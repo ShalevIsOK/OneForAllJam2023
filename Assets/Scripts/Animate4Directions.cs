@@ -1,30 +1,48 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Animate4Directions : MonoBehaviour
 {
     [Header("Config")]
     [SerializeField] private SpriteRenderer SpriteRenderer;
-    [SerializeField] public Direction InitialDirection;
-    [SerializeField] public string InitialAnimation;
-    [SerializeField] public bool ShouldResetFrameOnDirectionChange;
+    [SerializeField] private IHasVelocity Velocity;
+    [SerializeField] private Direction InitialDirection;
+    [SerializeField] private string InitialAnimation;
+    [SerializeField] private bool ShouldResetFrameOnDirectionChange;
     [SerializeField] private AnimationFrames[] AnimationsConfig;
 
+    [Header("Debug inspect")]
+    
     // Data
     private Dictionary<string, AnimationFrames> Animations;
 
     // Direction
-    private Direction CurrentDirection;
+    [SerializeField] private Direction CurrentDirection;
 
     // Animation
-    public string CurrentAnimation { get; private set; }
-    private bool FinishedAnimation;
-    private float AnimationTimer;
-    private int CurrentFrame;
+    [SerializeField] public string CurrentAnimation { get; private set; }
+    [SerializeField] private bool FinishedAnimation;
+    [SerializeField] private float AnimationTimer;
+    [SerializeField] private int CurrentFrame;
 
     private void Start()
     {
+        if (Velocity == null) {
+            Velocity = GetComponents<IHasVelocity>()
+                .FirstOrDefault(c => c != this);
+            if (Velocity == null) {
+                throw new Exception("There is no IHasVelocity component");
+            }
+        }
+        if (SpriteRenderer == null) {
+            SpriteRenderer = GetComponentsInChildren<SpriteRenderer>()
+                .First(c => c.enabled);
+            if (SpriteRenderer == null) {
+                throw new Exception("There is no SpriteRenderer component");
+            }
+        }
         CurrentDirection = InitialDirection;
         CurrentAnimation = InitialAnimation;
 
@@ -52,7 +70,7 @@ public class Animate4Directions : MonoBehaviour
             return;
         }
         
-        var velocity = GetComponent<IHasVelocity>().Velocity;
+        var velocity = Velocity.Velocity;
         var newDirection = GetDirection(velocity);
         if (newDirection != null) {
             var differentDirection = newDirection.Value!= CurrentDirection;

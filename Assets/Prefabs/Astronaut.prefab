@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5186734484463859220}
   - component: {fileID: 2399933437282904508}
   - component: {fileID: 2621228683357727828}
+  - component: {fileID: 2993020200286564266}
   m_Layer: 0
   m_Name: Astronaut
   m_TagString: Untagged
@@ -96,6 +97,18 @@ MonoBehaviour:
     Up: []
     Down: []
     Left: []
+--- !u!114 &2993020200286564266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3169207268137463157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d805346f5001f94883ab08b00822a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5887032712327723788
 GameObject:
   m_ObjectHideFlags: 0
