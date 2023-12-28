@@ -39,7 +39,8 @@ public class KeyboardMovementInput : MonoBehaviour, IHasVelocity
         {
             if (up != down)
             {
-                if (up) { moveType = MoveStates.Up; return; }
+            Debug.Log("1");
+                if (up) { moveType = MoveStates.Up; Debug.Log("up"); return; }
                 else { moveType = MoveStates.Down; return; }
             }
             if (left != right)
