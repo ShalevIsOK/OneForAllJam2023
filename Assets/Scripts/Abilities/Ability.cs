@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public abstract class Abilities : MonoBehaviour
+public abstract class Ability : MonoBehaviour
 {
-    [SerializeField] int AbilitACooldown;
-    bool isEnabled;
+    [SerializeField] int cooldown;
+    bool isEnabled = true;
 
-    public void OnTriggered (InputAction.CallbackContext context)
+    public bool TryInitiate()
     {
-        if (!isEnabled) return;
-        
+        if (!isEnabled) return false;
+        Debug.Log("initiated");
         StartCoroutine(CooldownTimer());
         Activate();
-        
+        return true;
     }
 
     protected abstract void Activate();
@@ -23,11 +23,13 @@ public abstract class Abilities : MonoBehaviour
     {
         isEnabled = false;
         float timer = 0;
-        while (timer< AbilitACooldown)
+        Debug.Log("Cooldown Started");
+        while (timer < cooldown)
         {
             timer += Time.deltaTime;
             yield return null;
         }
         isEnabled = true;
+        Debug.Log("Cooldown Over");
     }
 }

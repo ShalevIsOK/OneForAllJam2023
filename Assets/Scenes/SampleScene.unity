@@ -134,7 +134,10 @@ GameObject:
   - component: {fileID: 322349953}
   - component: {fileID: 322349952}
   - component: {fileID: 322349954}
+  - component: {fileID: 322349962}
+  - component: {fileID: 322349961}
   - component: {fileID: 322349956}
+  - component: {fileID: 322349960}
   - component: {fileID: 322349955}
   - component: {fileID: 322349957}
   - component: {fileID: 322349958}
@@ -368,11 +371,35 @@ MonoBehaviour:
     m_ActionId: 304b0b23-a9d0-40cb-a071-0a6e8307d44a
     m_ActionName: Mage/Ability2[/Keyboard/rightCtrl]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 322349960}
+        m_TargetAssemblyTypeName: AbilitiesManager, Assembly-CSharp
+        m_MethodName: Ability1Input
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 1eb6fb29-3a95-46b1-bb78-416f5c7baae4
     m_ActionName: Fighter/Ability1[/Keyboard/leftShift]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 322349960}
+        m_TargetAssemblyTypeName: AbilitiesManager, Assembly-CSharp
+        m_MethodName: Ability2Input
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: ddb9aa20-d70e-4d6b-bc96-4dfc46f1fef4
     m_ActionName: Fighter/Ability2[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
@@ -440,6 +467,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c0091b9d06b3454cb98f9510b002e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &322349960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322349951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294af4bc47740cc409083dd1a555c14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilities:
+  - {fileID: 322349961}
+  - {fileID: 322349962}
+--- !u!114 &322349961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322349951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e081312344f7c2468387f9ba8cb3bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 5
+--- !u!114 &322349962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322349951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447476c3f9a6446488499e18bee31341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
