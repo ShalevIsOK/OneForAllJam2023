@@ -358,9 +358,25 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: b9136c27-e51f-441e-9a43-1c845c8ff1e3
     m_ActionName: Mouse/MousePosition[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fe00d513-eedd-43dd-9b1f-3f95209125f1
+    m_ActionName: Mage/Ability1[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 304b0b23-a9d0-40cb-a071-0a6e8307d44a
+    m_ActionName: Mage/Ability2[/Keyboard/rightCtrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1eb6fb29-3a95-46b1-bb78-416f5c7baae4
+    m_ActionName: Fighter/Ability1[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ddb9aa20-d70e-4d6b-bc96-4dfc46f1fef4
+    m_ActionName: Fighter/Ability2[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: WASD
+  m_DefaultActionMap: Fighter
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &322349956
@@ -921,9 +937,25 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: b9136c27-e51f-441e-9a43-1c845c8ff1e3
     m_ActionName: Mouse/MousePosition[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fe00d513-eedd-43dd-9b1f-3f95209125f1
+    m_ActionName: Mage/Ability1[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 304b0b23-a9d0-40cb-a071-0a6e8307d44a
+    m_ActionName: Mage/Ability2[/Keyboard/rightCtrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1eb6fb29-3a95-46b1-bb78-416f5c7baae4
+    m_ActionName: Fighter/Ability1[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ddb9aa20-d70e-4d6b-bc96-4dfc46f1fef4
+    m_ActionName: Fighter/Ability2[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Arrow
+  m_DefaultActionMap: Mage
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &955370911
@@ -1184,9 +1216,25 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: b9136c27-e51f-441e-9a43-1c845c8ff1e3
     m_ActionName: Mouse/MousePosition[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fe00d513-eedd-43dd-9b1f-3f95209125f1
+    m_ActionName: Mage/Ability1[/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 304b0b23-a9d0-40cb-a071-0a6e8307d44a
+    m_ActionName: Mage/Ability2[/Keyboard/rightCtrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1eb6fb29-3a95-46b1-bb78-416f5c7baae4
+    m_ActionName: Fighter/Ability1[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ddb9aa20-d70e-4d6b-bc96-4dfc46f1fef4
+    m_ActionName: Fighter/Ability2[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Mouse
+  m_DefaultActionMap: Mechanic
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &1333507511

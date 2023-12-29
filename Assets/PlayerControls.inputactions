@@ -2,7 +2,7 @@
     "name": "PlayerControls",
     "maps": [
         {
-            "name": "Arrow",
+            "name": "Mage",
             "id": "bf8ef5d7-6c30-4df5-9ea8-2aa9caa5462b",
             "actions": [
                 {
@@ -36,6 +36,24 @@
                     "name": "Down",
                     "type": "Button",
                     "id": "d3ca16fa-eab0-4e2b-bd02-87babb326640",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability1",
+                    "type": "Button",
+                    "id": "fe00d513-eedd-43dd-9b1f-3f95209125f1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability2",
+                    "type": "Button",
+                    "id": "304b0b23-a9d0-40cb-a071-0a6e8307d44a",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -86,11 +104,33 @@
                     "action": "Down",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1fef8e9d-1ad5-4e95-8ec1-ec3fe07a28f2",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e35350f1-5b18-4827-adc2-f5a834bdb046",
+                    "path": "<Keyboard>/rightCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
         {
-            "name": "WASD",
+            "name": "Fighter",
             "id": "5b99c788-59b0-4a26-ad6f-14d51d315185",
             "actions": [
                 {
@@ -124,6 +164,24 @@
                     "name": "Down",
                     "type": "Button",
                     "id": "122679e6-ff9a-410e-bbdd-ef6a3f932228",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability1",
+                    "type": "Button",
+                    "id": "1eb6fb29-3a95-46b1-bb78-416f5c7baae4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability2",
+                    "type": "Button",
+                    "id": "ddb9aa20-d70e-4d6b-bc96-4dfc46f1fef4",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -174,11 +232,33 @@
                     "action": "Down",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4cc88e4e-ff96-457b-af77-2c917d357953",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4603145b-c9dd-4f51-9ac0-2be75e487090",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
         {
-            "name": "Mouse",
+            "name": "Mechanic",
             "id": "b854aca6-0a74-4cf7-b103-d756544b684a",
             "actions": [
                 {
