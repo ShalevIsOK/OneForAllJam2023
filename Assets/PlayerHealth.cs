@@ -28,7 +28,6 @@ public class PlayerHealth : MonoBehaviour, IHasHealth
     private void Update()
     {
         OnHealthChanged();
-        Debug.Log(Mathf.InverseLerp(0, maxHealth, health));
     }
 
 }
