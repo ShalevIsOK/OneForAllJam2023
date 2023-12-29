@@ -1278,9 +1278,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1333507507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c0091b9d06b3454cb98f9510b002e94, type: 3}
+  m_Script: {fileID: 11500000, guid: ef16010137ff01340859202c6383d25d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpriteRenderer: {fileID: 0}
+  InitialDirection: 1
+  InitialAnimation: Walk
+  ShouldResetFrameOnDirectionChange: 0
+  AnimationsConfig: {fileID: 11400000, guid: ad13840ebc40b364faf560c69c466114, type: 2}
+  CurrentDirection: 0
+  CurrentAnimation: 
+  FinishedAnimation: 0
+  AnimationTimer: 0
+  CurrentFrame: 0
 --- !u!1 &1354691004
 GameObject:
   m_ObjectHideFlags: 0

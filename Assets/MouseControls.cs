@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class MouseControls : MonoBehaviour
+public class MouseControls : MonoBehaviour, IHasVelocity
 {
     [SerializeField] Vector2 target;
     Vector2 mousePos;
     [SerializeField] private float speed = 1f;
     Rigidbody2D rb2d;
     [SerializeField] float moveToTargetThreshold = 1f;
+
+    public Vector3 Velocity => rb2d.velocity;
 
     private void Start()
     {
