@@ -1346,8 +1346,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0}
-  speed: 1
-  moveToTargetThreshold: 1
+  speed: 1.5
+  moveToTargetThreshold: 0.2
 --- !u!114 &1333507512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1421,6 +1421,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c0091b9d06b3454cb98f9510b002e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1341818441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1341818442}
+  - component: {fileID: 1341818443}
+  m_Layer: 0
+  m_Name: CogSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1341818442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341818441}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.26499963, y: 0.4499998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1341818443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341818441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe4095e2aea7654f9d1a9cd26c49fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 2457179186494671045, guid: 0769de809371cdf4ba220721eb8dcca8, type: 3}
+  center: {fileID: 519420032}
+  radius: 4.97
+  spawnRate: 8
 --- !u!1 &1354691004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1932,3 +1980,4 @@ SceneRoots:
   - {fileID: 828524833640334893}
   - {fileID: 2842591795297891620}
   - {fileID: 8984403094289359325}
+  - {fileID: 1341818442}

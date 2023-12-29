@@ -65,7 +65,7 @@ public class EnemyBehaviour : MonoBehaviour, IHasVelocity
             velocity = new Vector3(0, 0, 0);
         } else if (random == 5) {
             Animator.SetAnimation("Attack");
-        } else if (random >= 6 && random <= 20) {
+        } else if (random >= 6 && random <= 14) {
             velocity = VelocityTowardsTarget();
         }
     }
