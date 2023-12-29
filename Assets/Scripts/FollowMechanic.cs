@@ -28,12 +28,16 @@ public class FollowMechanic : MonoBehaviour
             return;
         }
 
-        var toMechanic = mechanic.transform.position - transform.position;
-        toMechanic.z = 0;
-        var distance = toMechanic.magnitude;
-        if (distance <= HitRadius) {
-            IsFollowing = true;
-            mechanic.AddCogFollower(gameObject);
+        if (!IsFollowing) {
+
+            var toMechanic = mechanic.transform.position - transform.position;
+            toMechanic.z = 0;
+            var distance = toMechanic.magnitude;
+            if (distance <= HitRadius) {
+                IsFollowing = true;
+                mechanic.AddCogFollower(gameObject);
+                AudioPlayer.Inst.PlayCogCollect();
+            }
         }
 
         if (IsFollowing) {

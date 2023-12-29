@@ -34,11 +34,15 @@ public class Mechanic : MonoBehaviour
     {
         var allPyramids = FindObjectsOfType<AlienPyramid>();
         foreach (var pyramid in allPyramids) {
+            if (pyramid.GetIsBuilt()) {
+                continue;
+            }
             var toPyramid = pyramid.transform.position - transform.position;
             toPyramid.z = 0;
             var distance = toPyramid.magnitude;
             if (distance <= RepairRadius) {
                 pyramid.Repair();
+                AudioPlayer.Inst.PlayPyramidBuild();
                 Destroy(anyCog);
                 return;
             }

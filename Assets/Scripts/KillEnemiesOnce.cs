@@ -15,7 +15,12 @@ public class KillEnemiesOnce : MonoBehaviour
             toEnemy.z = 0;
             var distance = toEnemy.magnitude;
             if (distance <= radius) {
-                Destroy(enemy.gameObject);
+                if (enemy != null) {
+                    Destroy(enemy.gameObject);
+                    AudioPlayer.Inst.PlayAstronautDie();
+                    var ScoreUI = FindObjectOfType<ScoreUI>();
+                    ScoreUI.AddScore(1);
+                }
             }
         }
     }

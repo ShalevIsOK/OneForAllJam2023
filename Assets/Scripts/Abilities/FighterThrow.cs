@@ -15,8 +15,9 @@ public class FighterThrow : Ability
     {
         Debug.Log("Throw your flesh you sexy alien");
         GameObject projectile = Instantiate(fleshProjectile,transform.position, Quaternion.identity);
-        projectile.GetComponent<StabProjectile>().Initialize(movementInput.moveType);
+        projectile.GetComponent<StabProjectile>().Initialize(gameObject, movementInput.moveType);
         Debug.Log(movementInput.moveType.ToString());
+        AudioPlayer.Inst.PlayAlienRange();
     }
 
     private void OnServerInitialized()

@@ -51,6 +51,8 @@ MonoBehaviour:
   speed: 1
   velocity: {x: 0, y: 0, z: 0}
   Animator: {fileID: 2621228683357727828}
+  TheFlagPrefab: {fileID: 8005019346537074603, guid: ef5b47626248fe94e966ec78d1edc04f, type: 3}
+  SpawnWhenDestroyedPrefab: {fileID: 8830437048885668577, guid: 56de43bb46652c149bd9f3a4f6e661b2, type: 3}
   target: {fileID: 0}
   runAICoolDown: 0
 --- !u!114 &2621228683357727828
@@ -99,6 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7ade9dd0c8676458ef2b24bbbfafae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathParticles: {fileID: 0}
 --- !u!1 &5887032712327723788
 GameObject:
   m_ObjectHideFlags: 0

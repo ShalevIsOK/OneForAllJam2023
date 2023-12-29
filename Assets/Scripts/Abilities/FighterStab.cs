@@ -15,8 +15,9 @@ public class FighterStab : Ability
     protected override void Activate()
     {
         GameObject projectile = Instantiate(knifeProjectile,transform.position, Quaternion.identity);
-        projectile.GetComponent<StabProjectile>().Initialize(movementInput.moveType);
+        projectile.GetComponent<StabProjectile>().Initialize(gameObject, movementInput.moveType);
         Debug.Log(movementInput.moveType.ToString());
+        AudioPlayer.Inst.PlayAlienMelee();
     }
 
     private void OnServerInitialized()

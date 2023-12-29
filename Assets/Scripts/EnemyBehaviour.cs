@@ -9,6 +9,8 @@ public class EnemyBehaviour : MonoBehaviour, IHasVelocity
     [SerializeField] private float speed;
     [SerializeField] private Vector3 velocity;
     [SerializeField] private Animate4Directions Animator;
+    [SerializeField] private GameObject TheFlagPrefab;
+    [SerializeField] private GameObject SpawnWhenDestroyedPrefab;
 
     [Header("Debug inspect")]
 
@@ -16,6 +18,8 @@ public class EnemyBehaviour : MonoBehaviour, IHasVelocity
     [SerializeField] private float runAICoolDown;
 
     Vector3 IHasVelocity.Velocity => this.velocity;
+
+    public bool PlantedFlag { get; private set; }
 
     // Start is called before the first frame update
     void Start()
@@ -65,7 +69,22 @@ public class EnemyBehaviour : MonoBehaviour, IHasVelocity
             velocity = new Vector3(0, 0, 0);
         } else if (random == 5) {
             Animator.SetAnimation("Attack");
-        } else if (random >= 6 && random <= 14) {
+        } else if (random == 6) {
+            Animator.SetAnimation("Attack");
+        } else if (random == 7) {
+            Animator.SetAnimation("Attack");
+        } else if (random == 8) {
+            if (!PlantedFlag) {
+                PlantedFlag = true;
+                var camera = FindObjectOfType<Camera>();
+                var toCamera = camera.transform.position - transform.position;
+                toCamera.z = 0;
+                var distance = toCamera.magnitude;
+                if (distance <= 4.5f) {
+                    Instantiate(TheFlagPrefab, transform.position, Quaternion.identity);
+                }
+            }
+        } else if (random >= 9 && random <= 16) {
             velocity = VelocityTowardsTarget();
         }
     }
@@ -119,6 +138,13 @@ public class EnemyBehaviour : MonoBehaviour, IHasVelocity
             Animator.SetAnimation("Walk");
         } else {
             Animator.SetAnimation("Idle");
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (SpawnWhenDestroyedPrefab != null) {
+            Instantiate(SpawnWhenDestroyedPrefab, transform.position, Quaternion.identity);
         }
     }
 }

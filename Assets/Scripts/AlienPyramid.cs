@@ -50,4 +50,9 @@ public class AlienPyramid : MonoBehaviour
     {
         IsBuilt = true;
     }
+
+    public bool GetIsBuilt()
+    {
+        return IsBuilt;
+    }
 }

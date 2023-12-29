@@ -6,7 +6,7 @@ using UnityEngine;
 public class DamagedByEnemy : MonoBehaviour
 {
     [Header("Config")]
-    [SerializeField] private int hitRadius = 1;
+    [SerializeField] private float hitRadius = 1;
     [SerializeField] private int damage = 1;
     [SerializeField] private float coolDown = 1f;
 
@@ -39,6 +39,7 @@ public class DamagedByEnemy : MonoBehaviour
                 GetComponentInChildren<IHasHealth>().TakeDamage(damage);
                 if (GetComponentInChildren<IHasHealth>().IsDead()) {
                     Destroy(gameObject);
+                    AudioPlayer.Inst.PlayAlienDie();
                 }
             }
         } else {

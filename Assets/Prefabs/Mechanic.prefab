@@ -309,7 +309,7 @@ MonoBehaviour:
   InitialDirection: 1
   InitialAnimation: Walk
   ShouldResetFrameOnDirectionChange: 0
-  AnimationsConfig: {fileID: 11400000, guid: 29f908f9b3cff3644b0e6932caeedc7d, type: 2}
+  AnimationsConfig: {fileID: 11400000, guid: 89ac25f7e0cdc0042afec015a3b35efe, type: 2}
   CurrentDirection: 0
   CurrentAnimation: 
   FinishedAnimation: 0
