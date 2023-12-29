@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d57acbecc376e2245bf9fec80b3dd442
+guid: f9adacd988dc0034c917201cee5323b2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -50,7 +50,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Astronaut_0
+      name: AlienMage_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b9670653786ce24383acce6f855346a
-      internalID: -194006073
+      spriteID: 0815554c3a7e4e9408e44692ac6db3a6
+      internalID: -1331077551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_1
+      name: AlienMage_1
       rect:
         serializedVersion: 2
         x: 32
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e146ca9d8348a945a6294a43d4b82e7
-      internalID: -825082573
+      spriteID: 6fdfa55c1b628534bb33b997a5162f1e
+      internalID: -2047863294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_2
+      name: AlienMage_2
       rect:
         serializedVersion: 2
         x: 64
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3e5e106ce7c5204a800051cab208552
-      internalID: 1962610520
+      spriteID: c7a1708547cfefb43b57b1b1ea4148a2
+      internalID: -1099203007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_3
+      name: AlienMage_3
       rect:
         serializedVersion: 2
         x: 96
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39bcb7012083ca04faaf7742ceebbeb8
-      internalID: 1002459690
+      spriteID: 422d055010bb6344c9a9ec0d44f5e69c
+      internalID: 172528813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_4
+      name: AlienMage_4
       rect:
         serializedVersion: 2
         x: 128
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1dca8800e726604fa52c769ffed06be
-      internalID: 1129932775
+      spriteID: f4a5e2ec4f4851843a571f94c18aed67
+      internalID: -638376172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_5
+      name: AlienMage_5
       rect:
         serializedVersion: 2
         x: 160
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 624f0f79bea855843a9a340265dd29ef
-      internalID: 1653214380
+      spriteID: 5a69bb5f3492251458bedb4b8f9f8871
+      internalID: -565283381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_6
+      name: AlienMage_6
       rect:
         serializedVersion: 2
         x: 192
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55850d7158d6ce94194a0d44e8761c29
-      internalID: -326657569
+      spriteID: 4489aa585b7839647b357ccc7288f519
+      internalID: 2065255829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_7
+      name: AlienMage_7
       rect:
         serializedVersion: 2
         x: 224
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6939e9ef95414334f80204bad5d06e7d
-      internalID: 1224108889
+      spriteID: fe7b75eb8546ce74980808462d80d9ac
+      internalID: 1732154604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_8
+      name: AlienMage_8
       rect:
         serializedVersion: 2
         x: 0
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2e048dd82450840a1dc6fd928f8542
-      internalID: -1072453619
+      spriteID: cf832c87839a59f45a8fdc936084cc85
+      internalID: 382553163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_9
+      name: AlienMage_9
       rect:
         serializedVersion: 2
         x: 32
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3237ac096febd2e4da8e1802c94730e3
-      internalID: 1819540236
+      spriteID: f888dd2c0c36edf44bb3a0d6152ba062
+      internalID: -460005338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_10
+      name: AlienMage_10
       rect:
         serializedVersion: 2
         x: 64
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4615550880da5ec48ae0cee15f0f1f55
-      internalID: 656296193
+      spriteID: 3f9ad2cddad3d244993850f75427af7e
+      internalID: 1670458730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_11
+      name: AlienMage_11
       rect:
         serializedVersion: 2
         x: 96
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a9f607717022b84d9f962e983769469
-      internalID: 347103821
+      spriteID: 7ab04450aa35aad4dada17cecc334889
+      internalID: 644894652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_12
+      name: AlienMage_12
       rect:
         serializedVersion: 2
         x: 128
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e578b610af925df4f8a8acb34d31aca0
-      internalID: 1612782835
+      spriteID: 53f26980e5e8534418029bfbfbcf0b4d
+      internalID: 1945728645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_13
+      name: AlienMage_13
       rect:
         serializedVersion: 2
         x: 160
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bdd2c9afee5ffa4b8807c538ca35be6
-      internalID: -2004108356
+      spriteID: 4c2fa7a230c3eea4cb61e67f87f12faf
+      internalID: 1408083635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_14
+      name: AlienMage_14
       rect:
         serializedVersion: 2
         x: 192
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2209a469ae512834c80bbe52b30f6718
-      internalID: 581416663
+      spriteID: eabacd47ed6daca449e2a905ebab5fbd
+      internalID: -2012021646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_15
+      name: AlienMage_15
       rect:
         serializedVersion: 2
         x: 224
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1de7c57c261f6ce43af7003d6e972b87
-      internalID: -328003082
+      spriteID: 0a5115bf3c68a46488ac32d8ca936670
+      internalID: 1200655215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_16
+      name: AlienMage_16
       rect:
         serializedVersion: 2
         x: 0
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 250b51d9a28189445b891b5397923f71
-      internalID: 755934920
+      spriteID: 3b73e48b636120a48b55588a560d387e
+      internalID: 142641908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_17
+      name: AlienMage_17
       rect:
         serializedVersion: 2
         x: 32
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d869adee4672340ab0b8267222d21c
-      internalID: -1881566647
+      spriteID: f7c5fedfc37a30a46893759d41e7df70
+      internalID: 28221781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_18
+      name: AlienMage_18
       rect:
         serializedVersion: 2
         x: 64
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 357b7ece1c8d3354fb30128c0577550e
-      internalID: -20558435
+      spriteID: 2849b6da1112e1346b0cd4bb4f017a60
+      internalID: 812736401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_19
+      name: AlienMage_19
       rect:
         serializedVersion: 2
         x: 96
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b072d012e8184b34c8f1bdffb8737d30
-      internalID: 444918150
+      spriteID: fb652f9fee6b68e458f6dcfb0d408d7d
+      internalID: 1002600156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_20
+      name: AlienMage_20
       rect:
         serializedVersion: 2
         x: 128
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 936a4050af62a4a4fb9a39a44286f282
-      internalID: 1352195864
+      spriteID: fb7e32f3b496dc84bb845d9ab44e56fa
+      internalID: 912983180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_21
+      name: AlienMage_21
       rect:
         serializedVersion: 2
         x: 160
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88065e67874d4c34299dc705537cc9f9
-      internalID: 1061566447
+      spriteID: 436742f5e292fc342affabb8e42c11ba
+      internalID: 2022722670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_22
+      name: AlienMage_22
       rect:
         serializedVersion: 2
         x: 192
@@ -586,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae1d6e697f77cbf45830f2de0dffeab4
-      internalID: -1965676076
+      spriteID: ded25c928ae3ddf4db2f45c307c36a13
+      internalID: 1687095840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_23
+      name: AlienMage_23
       rect:
         serializedVersion: 2
         x: 224
@@ -607,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80de01bce0b0a6c46803d8a064392fd6
-      internalID: -171500594
+      spriteID: 4f5db4230a67d7840a8a68e313a6de4b
+      internalID: -1216640907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_24
+      name: AlienMage_24
       rect:
         serializedVersion: 2
         x: 0
@@ -628,14 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb519d6c83bb7214d8689dda2bee80bd
-      internalID: -305464280
+      spriteID: 7b4eb4b6320a0294a9e7dfc47c265977
+      internalID: 1495540205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_25
+      name: AlienMage_25
       rect:
         serializedVersion: 2
         x: 32
@@ -649,14 +649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f570d40dfaf9d84691a806fc8b53eef
-      internalID: 1848760959
+      spriteID: 1eb0162b3cacc3f4bb9a5dce464371af
+      internalID: 2010488045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_26
+      name: AlienMage_26
       rect:
         serializedVersion: 2
         x: 64
@@ -670,14 +670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7231cb01db4b85547b2f02cbc29416e0
-      internalID: -1547852855
+      spriteID: d5571cde1709d574399cf36cc102ff7d
+      internalID: -377897885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_27
+      name: AlienMage_27
       rect:
         serializedVersion: 2
         x: 96
@@ -691,14 +691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7935b5a1fcd65d4c8b43f15b884657e
-      internalID: 750474005
+      spriteID: 6f9a49f42c393984c95345cd38dac406
+      internalID: -2128022445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_28
+      name: AlienMage_28
       rect:
         serializedVersion: 2
         x: 128
@@ -712,14 +712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ba17eed349fa9c43b8f506234df8d9e
-      internalID: 1168598669
+      spriteID: 2e97d04e44933914aab81f346b6a4310
+      internalID: -1854408534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_29
+      name: AlienMage_29
       rect:
         serializedVersion: 2
         x: 160
@@ -733,14 +733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bac67985169499f4abfed04528eca7e6
-      internalID: -1354220962
+      spriteID: a317854f624e1ce48bd20736599c3bd9
+      internalID: 25279193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_30
+      name: AlienMage_30
       rect:
         serializedVersion: 2
         x: 192
@@ -754,14 +754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a33a17ecbcc21694d9911b3d2038cbba
-      internalID: -447903078
+      spriteID: dfd7eb7e06d415946bcd5e7933094549
+      internalID: -876511484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_31
+      name: AlienMage_31
       rect:
         serializedVersion: 2
         x: 224
@@ -775,14 +775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dd72ff857205a14fb4dbe15dbb753f7
-      internalID: 915651259
+      spriteID: 30507c3da73bda84e91e14113ac2415c
+      internalID: 1637794264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_32
+      name: AlienMage_32
       rect:
         serializedVersion: 2
         x: 0
@@ -796,14 +796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0333f4decf8ebd24ca74a8acf79dd8f9
-      internalID: 1606605967
+      spriteID: c49103705e6377945a7d0c85549070fa
+      internalID: 2017884549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_33
+      name: AlienMage_33
       rect:
         serializedVersion: 2
         x: 32
@@ -817,14 +817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba3027e2dac1e24f9ebb80aed84cd22
-      internalID: -594108456
+      spriteID: 025ae3dd5d05e224db03e0cd7b5adf0d
+      internalID: 1934772971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_34
+      name: AlienMage_34
       rect:
         serializedVersion: 2
         x: 64
@@ -838,14 +838,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e5c8e0256a05d245a08e81b71dc7f6b
-      internalID: -1556190679
+      spriteID: e38b0cbd4eff45342b56ed0448dbc31c
+      internalID: 958129868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_35
+      name: AlienMage_35
       rect:
         serializedVersion: 2
         x: 96
@@ -859,14 +859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1519035dcc11aa478a150bdefb7ef5b
-      internalID: -1913251626
+      spriteID: 372d8e000733fe7409f2a21f71a0f2bf
+      internalID: -1956047240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_36
+      name: AlienMage_36
       rect:
         serializedVersion: 2
         x: 128
@@ -880,14 +880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a1ebac24348a3418d76279dbbbe90a
-      internalID: 552968872
+      spriteID: ab3e877c89d56b44c98e3c7810bdcb29
+      internalID: 762477671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_37
+      name: AlienMage_37
       rect:
         serializedVersion: 2
         x: 160
@@ -901,14 +901,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35db531e1132c6544a593308d3226fdf
-      internalID: -487340673
+      spriteID: 6e399f6f571a179449b782d66410517c
+      internalID: -1372948919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_38
+      name: AlienMage_38
       rect:
         serializedVersion: 2
         x: 192
@@ -922,14 +922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17776c8d6c8ad0c4d99fe67901c7c6c1
-      internalID: 1914594602
+      spriteID: 7f6dea1eefa94454e89aa04ec1a12132
+      internalID: -797577745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_39
+      name: AlienMage_39
       rect:
         serializedVersion: 2
         x: 224
@@ -943,14 +943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c7f12e410c1e324f85d628999edd487
-      internalID: 1234054816
+      spriteID: b72c4e16f82acf943b33db9af27b651c
+      internalID: 2069415496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_40
+      name: AlienMage_40
       rect:
         serializedVersion: 2
         x: 0
@@ -964,14 +964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03cb488b032651640abc3eff6f4967c3
-      internalID: 1461166998
+      spriteID: 9440cd0b99d4cfc4fb4d305bd71a13a2
+      internalID: -51121190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_41
+      name: AlienMage_41
       rect:
         serializedVersion: 2
         x: 32
@@ -985,14 +985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2397a8e3d73e8de41b4f5b3860b66bd3
-      internalID: 1384268660
+      spriteID: 16121ad8314e68543a15064578166f4c
+      internalID: 2118792454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_42
+      name: AlienMage_42
       rect:
         serializedVersion: 2
         x: 64
@@ -1006,14 +1006,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11836fec4a75e884186058d1818c8d9e
-      internalID: 694376268
+      spriteID: 692cc0acb1e7133448e5504aa3951579
+      internalID: 180174011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_43
+      name: AlienMage_43
       rect:
         serializedVersion: 2
         x: 96
@@ -1027,14 +1027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b335b047db4aa034cb39d87ddd36f5dd
-      internalID: -1791123213
+      spriteID: 46b11a45705ba3b428835269ddb54c15
+      internalID: 1527638060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_44
+      name: AlienMage_44
       rect:
         serializedVersion: 2
         x: 128
@@ -1048,14 +1048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4465f58b4839e14aac5f1b2eb140b09
-      internalID: 924255853
+      spriteID: 4309ad3d73d9f424bbb03eaeb6f61e50
+      internalID: -729387081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_45
+      name: AlienMage_45
       rect:
         serializedVersion: 2
         x: 160
@@ -1069,14 +1069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e27a1831684a1bb488622ad0f9f3f53d
-      internalID: 1046690983
+      spriteID: 256b1948eff1b524cbd6b614e3b3254b
+      internalID: 670590502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_46
+      name: AlienMage_46
       rect:
         serializedVersion: 2
         x: 192
@@ -1090,14 +1090,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99f3b4608f1d0054ba4025e0c6a9bd2f
-      internalID: 1464457318
+      spriteID: 89535c75d1f9a8f4fa90291ead8eae07
+      internalID: -123489492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_47
+      name: AlienMage_47
       rect:
         serializedVersion: 2
         x: 224
@@ -1111,14 +1111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9749d0c137d64546ad62e8af80b55df
-      internalID: -1231178397
+      spriteID: 9114cb651accd364bb431d65577ed852
+      internalID: -1759664618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_48
+      name: AlienMage_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1132,14 +1132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6ce2465114ab2643a3ca49188aa318c
-      internalID: 1517636233
+      spriteID: 4174f6815ca22d946998f2e5decbd765
+      internalID: -1159159438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_49
+      name: AlienMage_49
       rect:
         serializedVersion: 2
         x: 32
@@ -1153,14 +1153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3206e0274489641479f39a1d7d33100b
-      internalID: 835008679
+      spriteID: 2a054d6c4f593434f977f48bd60daccb
+      internalID: 1063985976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_50
+      name: AlienMage_50
       rect:
         serializedVersion: 2
         x: 64
@@ -1174,14 +1174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50b686648107bb543acad5682b2024d8
-      internalID: -895728036
+      spriteID: 39fe9829409feb94d8d15f7ae073b77c
+      internalID: 1286586012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_51
+      name: AlienMage_51
       rect:
         serializedVersion: 2
         x: 96
@@ -1195,14 +1195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18caefdd584ac7346893ace6464f3dbb
-      internalID: -2063462926
+      spriteID: 20441c5aa9c90224185f250c084071c8
+      internalID: -1489386227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_52
+      name: AlienMage_52
       rect:
         serializedVersion: 2
         x: 128
@@ -1216,14 +1216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7416c8ebf700314f925e2109ae5a412
-      internalID: -1764012819
+      spriteID: 8910f772ea5c4d94d94fa80d10ca8e71
+      internalID: -573480410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_53
+      name: AlienMage_53
       rect:
         serializedVersion: 2
         x: 160
@@ -1237,14 +1237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1338144db6502a45ba86b9af1dd994a
-      internalID: 1424106648
+      spriteID: 627283acde524334884f3aea3e1395e8
+      internalID: -1233299200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_54
+      name: AlienMage_54
       rect:
         serializedVersion: 2
         x: 192
@@ -1258,14 +1258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 437fda5c2d7b95447821672da774024a
-      internalID: 2041683167
+      spriteID: 96013c946b232b546b0c5aefb4489bdf
+      internalID: 225875126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_55
+      name: AlienMage_55
       rect:
         serializedVersion: 2
         x: 224
@@ -1279,14 +1279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a79453f727433846ae57f10b7013b60
-      internalID: 137435532
+      spriteID: f905a097507db624e9ed990c206c6421
+      internalID: -1020962558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_56
+      name: AlienMage_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1300,14 +1300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5568a372e027ee64c991fd138effcb4a
-      internalID: 694657131
+      spriteID: 95545a230ef613f47aceeaa35e5d76e7
+      internalID: 861698859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_57
+      name: AlienMage_57
       rect:
         serializedVersion: 2
         x: 32
@@ -1321,14 +1321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f053f38824be90e45be531d0893cc5d0
-      internalID: -1758775488
+      spriteID: 8db11808b7fb7b64aa92716c5135220e
+      internalID: -594864708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_58
+      name: AlienMage_58
       rect:
         serializedVersion: 2
         x: 64
@@ -1342,14 +1342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdbd74458263e96419ec9457e90b3754
-      internalID: 1141149256
+      spriteID: 78658260119826143a45180e7b29a4dd
+      internalID: 1361651930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_59
+      name: AlienMage_59
       rect:
         serializedVersion: 2
         x: 96
@@ -1363,14 +1363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15571f924e2f32348994628cfde0496e
-      internalID: 450492998
+      spriteID: c161f63f090593543803f3efc5d9e9cb
+      internalID: 1502651615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_60
+      name: AlienMage_60
       rect:
         serializedVersion: 2
         x: 128
@@ -1384,14 +1384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef81bec5195ec04984d996e2e071252
-      internalID: 1958102990
+      spriteID: 0f5b6e2d09f12d845b28cbd2ea78f2a7
+      internalID: -715282241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_61
+      name: AlienMage_61
       rect:
         serializedVersion: 2
         x: 160
@@ -1405,14 +1405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45a2554bde5b5134d9e22f2e04cd6236
-      internalID: 109766568
+      spriteID: 5a18f2266e255b74ab4cb65caf452532
+      internalID: 1206570647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_62
+      name: AlienMage_62
       rect:
         serializedVersion: 2
         x: 192
@@ -1426,14 +1426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a62d7bb15b44cf4689ac908da744e4a
-      internalID: -309926024
+      spriteID: f7649b9739eb7aa4fadb9b70f6ffddb9
+      internalID: 321502444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut_63
+      name: AlienMage_63
       rect:
         serializedVersion: 2
         x: 224
@@ -1447,8 +1447,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29e739b14648c0a4f9541cea724bd647
-      internalID: 1261655986
+      spriteID: 2a3af277a1c3b8d42b12e101f8d435b2
+      internalID: 1197315173
       vertices: []
       indices: 
       edges: []
@@ -1464,70 +1464,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Astronaut_0: -194006073
-      Astronaut_1: -825082573
-      Astronaut_10: 656296193
-      Astronaut_11: 347103821
-      Astronaut_12: 1612782835
-      Astronaut_13: -2004108356
-      Astronaut_14: 581416663
-      Astronaut_15: -328003082
-      Astronaut_16: 755934920
-      Astronaut_17: -1881566647
-      Astronaut_18: -20558435
-      Astronaut_19: 444918150
-      Astronaut_2: 1962610520
-      Astronaut_20: 1352195864
-      Astronaut_21: 1061566447
-      Astronaut_22: -1965676076
-      Astronaut_23: -171500594
-      Astronaut_24: -305464280
-      Astronaut_25: 1848760959
-      Astronaut_26: -1547852855
-      Astronaut_27: 750474005
-      Astronaut_28: 1168598669
-      Astronaut_29: -1354220962
-      Astronaut_3: 1002459690
-      Astronaut_30: -447903078
-      Astronaut_31: 915651259
-      Astronaut_32: 1606605967
-      Astronaut_33: -594108456
-      Astronaut_34: -1556190679
-      Astronaut_35: -1913251626
-      Astronaut_36: 552968872
-      Astronaut_37: -487340673
-      Astronaut_38: 1914594602
-      Astronaut_39: 1234054816
-      Astronaut_4: 1129932775
-      Astronaut_40: 1461166998
-      Astronaut_41: 1384268660
-      Astronaut_42: 694376268
-      Astronaut_43: -1791123213
-      Astronaut_44: 924255853
-      Astronaut_45: 1046690983
-      Astronaut_46: 1464457318
-      Astronaut_47: -1231178397
-      Astronaut_48: 1517636233
-      Astronaut_49: 835008679
-      Astronaut_5: 1653214380
-      Astronaut_50: -895728036
-      Astronaut_51: -2063462926
-      Astronaut_52: -1764012819
-      Astronaut_53: 1424106648
-      Astronaut_54: 2041683167
-      Astronaut_55: 137435532
-      Astronaut_56: 694657131
-      Astronaut_57: -1758775488
-      Astronaut_58: 1141149256
-      Astronaut_59: 450492998
-      Astronaut_6: -326657569
-      Astronaut_60: 1958102990
-      Astronaut_61: 109766568
-      Astronaut_62: -309926024
-      Astronaut_63: 1261655986
-      Astronaut_7: 1224108889
-      Astronaut_8: -1072453619
-      Astronaut_9: 1819540236
+      AlienMage_0: -1331077551
+      AlienMage_1: -2047863294
+      AlienMage_10: 1670458730
+      AlienMage_11: 644894652
+      AlienMage_12: 1945728645
+      AlienMage_13: 1408083635
+      AlienMage_14: -2012021646
+      AlienMage_15: 1200655215
+      AlienMage_16: 142641908
+      AlienMage_17: 28221781
+      AlienMage_18: 812736401
+      AlienMage_19: 1002600156
+      AlienMage_2: -1099203007
+      AlienMage_20: 912983180
+      AlienMage_21: 2022722670
+      AlienMage_22: 1687095840
+      AlienMage_23: -1216640907
+      AlienMage_24: 1495540205
+      AlienMage_25: 2010488045
+      AlienMage_26: -377897885
+      AlienMage_27: -2128022445
+      AlienMage_28: -1854408534
+      AlienMage_29: 25279193
+      AlienMage_3: 172528813
+      AlienMage_30: -876511484
+      AlienMage_31: 1637794264
+      AlienMage_32: 2017884549
+      AlienMage_33: 1934772971
+      AlienMage_34: 958129868
+      AlienMage_35: -1956047240
+      AlienMage_36: 762477671
+      AlienMage_37: -1372948919
+      AlienMage_38: -797577745
+      AlienMage_39: 2069415496
+      AlienMage_4: -638376172
+      AlienMage_40: -51121190
+      AlienMage_41: 2118792454
+      AlienMage_42: 180174011
+      AlienMage_43: 1527638060
+      AlienMage_44: -729387081
+      AlienMage_45: 670590502
+      AlienMage_46: -123489492
+      AlienMage_47: -1759664618
+      AlienMage_48: -1159159438
+      AlienMage_49: 1063985976
+      AlienMage_5: -565283381
+      AlienMage_50: 1286586012
+      AlienMage_51: -1489386227
+      AlienMage_52: -573480410
+      AlienMage_53: -1233299200
+      AlienMage_54: 225875126
+      AlienMage_55: -1020962558
+      AlienMage_56: 861698859
+      AlienMage_57: -594864708
+      AlienMage_58: 1361651930
+      AlienMage_59: 1502651615
+      AlienMage_6: 2065255829
+      AlienMage_60: -715282241
+      AlienMage_61: 1206570647
+      AlienMage_62: 321502444
+      AlienMage_63: 1197315173
+      AlienMage_7: 1732154604
+      AlienMage_8: 382553163
+      AlienMage_9: -460005338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
