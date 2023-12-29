@@ -495,7 +495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 5
-  knifeProjectile: {fileID: 0}
+  knifeProjectile: {fileID: 1798806478157715685, guid: ad810145701115445a4735aa47087354, type: 3}
 --- !u!114 &322349962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1795,18 +1795,6 @@ PrefabInstance:
     - target: {fileID: 3491173367278744081, guid: 69e9022794e74894186fb8fb2436cba7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3557770588731700480, guid: 69e9022794e74894186fb8fb2436cba7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3559976460497388665, guid: 69e9022794e74894186fb8fb2436cba7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4828951746422218214, guid: 69e9022794e74894186fb8fb2436cba7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5245637639593296397, guid: 69e9022794e74894186fb8fb2436cba7, type: 3}
       propertyPath: m_Name
