@@ -100,4 +100,6 @@ MonoBehaviour:
   Unbuilt: {fileID: 504512688, guid: ca77b326aaf809f4bbc47b5dd54ce007, type: 3}
   Built: {fileID: -192629206, guid: ca77b326aaf809f4bbc47b5dd54ce007, type: 3}
   StartBuilt: 0
+  EnemyTriggerDistance: 1
+  ExplosionPrefab: {fileID: 5257688708108172178, guid: 656f182f31641994387c6ed43fb23d82, type: 3}
   IsBuilt: 0

@@ -14,7 +14,7 @@ public class FighterStab : Ability
     }
     protected override void Activate()
     {
-        GameObject projectile = Instantiate(knifeProjectile,transform.position,quaternion.identity);
+        GameObject projectile = Instantiate(knifeProjectile,transform.position, Quaternion.identity);
         projectile.GetComponent<StabProjectile>().Initialize(movementInput.moveType);
         Debug.Log(movementInput.moveType.ToString());
     }

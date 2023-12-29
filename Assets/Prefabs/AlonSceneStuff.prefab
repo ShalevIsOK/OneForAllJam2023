@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3747594781979644058}
   m_Layer: 0
-  m_Name: AlonSceneTestStuff
+  m_Name: AlonSceneStuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.380081
+      value: 10.83
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -116,7 +116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.380081
+      value: 10.83
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -178,7 +178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.380081
+      value: 10.83
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -240,7 +240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.380081
+      value: 10.83
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -302,7 +302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.380081
+      value: 10.83
       objectReference: {fileID: 0}
     - target: {fileID: 5186734484463859220, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
       propertyPath: m_LocalPosition.z

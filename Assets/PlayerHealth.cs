@@ -19,6 +19,11 @@ public class PlayerHealth : MonoBehaviour, IHasHealth
         OnHealthChanged();
     }
 
+    public bool IsDead()
+    {
+        return health <= 0;
+    }
+
     public void TakeDamage(int amount)
     {
         health -= amount;

@@ -17,6 +17,11 @@ public class EnemyHealth : MonoBehaviour, IHasHealth
         return;
     }
 
+    public bool IsDead()
+    {
+        return false;
+    }
+
     public void TakeDamage(int amount)
     {
         Die();

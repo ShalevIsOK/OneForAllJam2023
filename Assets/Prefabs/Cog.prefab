@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3240145855159894133}
   - component: {fileID: 2154708114116276486}
+  - component: {fileID: 4965622918842282097}
   m_Layer: 0
   m_Name: Cog
   m_TagString: Untagged
@@ -84,3 +85,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4965622918842282097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2457179186494671045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1928a29588c8824a8c0adb81f807027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HitRadius: 0.8
+  FollowSpeedMin: 0.5
+  FollowSpeedMax: 1.5
+  FollowSpeed: 1

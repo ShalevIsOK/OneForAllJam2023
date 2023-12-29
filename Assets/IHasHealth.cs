@@ -7,4 +7,5 @@ public interface IHasHealth
     abstract void Heal(int amount);
     abstract void TakeDamage(int amount);
     abstract void Die();
+    abstract bool IsDead();
 }

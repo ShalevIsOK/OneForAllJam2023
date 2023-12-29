@@ -7,6 +7,9 @@ public class StabProjectile : MonoBehaviour
     [SerializeField] float duration;
     [SerializeField] float distance = 2f;
     [SerializeField] float stayBeforeDestroyDuration = 0.5f;
+    // [SerializeField] float damage = 1f;
+    [SerializeField] float collisionRadius = 0;
+    [SerializeField] GameObject spawnOnHit;
     private Vector2 target;
     private Vector2 startLocation;
     float timeElapsed = 0f;
@@ -38,8 +41,7 @@ public class StabProjectile : MonoBehaviour
     private void Update()
     {
         Debug.Log("update");
-        if (timeElapsed < duration)
-        {
+        if (timeElapsed < duration) {
             Debug.Log("lerp started");
             Vector2 newlocation;
             float progress = timeElapsed/duration;
@@ -47,15 +49,32 @@ public class StabProjectile : MonoBehaviour
             newlocation.y = Mathf.Lerp(startLocation.y, target.y, progress);
             transform.position = newlocation;
             timeElapsed += Time.deltaTime;
-        }
-        else if (timeElapsed-duration <= stayBeforeDestroyDuration)
-        {
+        } else if (timeElapsed-duration <= stayBeforeDestroyDuration) {
             transform.position = target;
             timeElapsed += Time.deltaTime;
+        } else {
+            Destroy(this.gameObject);
+            return;
         }
-        else
-        {
+
+        Vector2 hitPosition = transform.position;
+
+        var allEnemies = FindObjectsOfType<EnemyBehaviour>();
+        var anythingHit = false;
+        foreach (var enemy in allEnemies) {
+            if (Vector2.Distance(enemy.transform.position, transform.position) < collisionRadius) {
+                Destroy(enemy.gameObject);
+                anythingHit = true;
+                hitPosition = enemy.transform.position;
+            }
+        }
+
+        if (anythingHit) {
+            if (spawnOnHit != null) {
+                Instantiate(spawnOnHit, hitPosition, Quaternion.identity);
+            }
             Destroy(this.gameObject);
         }
+
     }
 }

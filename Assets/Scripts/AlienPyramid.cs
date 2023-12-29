@@ -9,6 +9,8 @@ public class AlienPyramid : MonoBehaviour
     [SerializeField] private Sprite Unbuilt;
     [SerializeField] private Sprite Built;
     [SerializeField] private bool StartBuilt;
+    [SerializeField] private float EnemyTriggerDistance;
+    [SerializeField] private GameObject ExplosionPrefab;
 
     [Header("Debug inspect")]
     [SerializeField] private bool IsBuilt;
@@ -28,6 +30,24 @@ public class AlienPyramid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateSprite();
+        if (IsBuilt) {
+            var allEnemies = FindObjectsOfType<EnemyBehaviour>();
+            foreach (var enemy in allEnemies) {
+                var toEnemy = enemy.transform.position - transform.position;
+                toEnemy.z = 0;
+                var distance = toEnemy.magnitude;
+                if (distance <= EnemyTriggerDistance) {
+                    IsBuilt = false;
+                    Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+                    break;
+                }
+            }
+        }
+    }
+
+    public void Repair()
+    {
+        IsBuilt = true;
     }
 }
