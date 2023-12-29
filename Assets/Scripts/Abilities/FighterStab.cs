@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class FighterStab : Ability
@@ -13,7 +14,14 @@ public class FighterStab : Ability
     }
     protected override void Activate()
     {
-        Instantiate(knifeProjectile,transform);
+        GameObject projectile = Instantiate(knifeProjectile,transform.position,quaternion.identity);
+        projectile.GetComponent<StabProjectile>().Initialize(movementInput.moveType);
+        Debug.Log(movementInput.moveType.ToString());
+    }
+
+    private void OnServerInitialized()
+    {
+        
     }
 
 }
