@@ -8,6 +8,11 @@ public class PlayerHealth : MonoBehaviour, IHasHealth
     public int health;
     [SerializeField] GameObject fillRoot;
 
+    public void Die()
+    {
+        throw new System.NotImplementedException();
+    }
+
     public void Heal(int amount)
     {
         health += amount;

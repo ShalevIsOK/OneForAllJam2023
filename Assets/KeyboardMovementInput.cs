@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class KeyboardMovementInput : MonoBehaviour, IHasVelocity
 {
-    private MoveStates moveType;
+    public MoveStates moveType { get; private set; }
     [SerializeField] private float speed = 1f;
     [SerializeField] private PlayerInput playerInput;
     private Rigidbody2D rb2d;
@@ -115,7 +115,7 @@ public class KeyboardMovementInput : MonoBehaviour, IHasVelocity
     }
 }
 
-enum MoveStates
+public enum MoveStates
 {
     none, Up, Down, Left, Right
 }

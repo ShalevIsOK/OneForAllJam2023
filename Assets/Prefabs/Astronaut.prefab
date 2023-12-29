@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2399933437282904508}
   - component: {fileID: 2621228683357727828}
   - component: {fileID: 2993020200286564266}
+  - component: {fileID: 3847858803636015456}
   m_Layer: 0
   m_Name: Astronaut
   m_TagString: Untagged
@@ -50,6 +51,8 @@ MonoBehaviour:
   speed: 1
   velocity: {x: 0, y: 0, z: 0}
   Animator: {fileID: 2621228683357727828}
+  target: {fileID: 0}
+  runAICoolDown: 0
 --- !u!114 &2621228683357727828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,6 +71,7 @@ MonoBehaviour:
   ShouldResetFrameOnDirectionChange: 0
   AnimationsConfig: {fileID: 11400000, guid: ad13840ebc40b364faf560c69c466114, type: 2}
   CurrentDirection: 0
+  CurrentAnimation: 
   FinishedAnimation: 0
   AnimationTimer: 0
   CurrentFrame: 0
@@ -81,6 +85,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d805346f5001f94883ab08b00822a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3847858803636015456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3169207268137463157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7ade9dd0c8676458ef2b24bbbfafae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5887032712327723788
