@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Astronaut
+  m_EditorClassIdentifier: Assembly-CSharp::Animate4DirectionsConfig
+  AnimationConfig:
+  - Name: Idle
+    FrameDuration: 0.1
+    Up:
+    - {fileID: -1072453619, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    Down:
+    - {fileID: -194006073, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    Left:
+    - {fileID: 1129932775, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+  - Name: Walk
+    FrameDuration: 0.1
+    Up:
+    - {fileID: -1072453619, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: 1819540236, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: 656296193, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: 347103821, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    Down:
+    - {fileID: -194006073, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: -825082573, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: 1962610520, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: 1002459690, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    Left:
+    - {fileID: 1129932775, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: 1653214380, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: -326657569, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    - {fileID: 1224108889, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+  - Name: Attack
+    FrameDuration: 0.5
+    Up:
+    - {fileID: 1352195864, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    Down:
+    - {fileID: 1612782835, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
+    Left:
+    - {fileID: 755934920, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}

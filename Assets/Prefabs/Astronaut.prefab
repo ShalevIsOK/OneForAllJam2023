@@ -66,37 +66,11 @@ MonoBehaviour:
   InitialDirection: 1
   InitialAnimation: Walk
   ShouldResetFrameOnDirectionChange: 0
-  AnimationsConfig:
-  - Name: Idle
-    FrameDuration: 0.1
-    Up:
-    - {fileID: -1072453619, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    Down:
-    - {fileID: -194006073, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    Left:
-    - {fileID: 1129932775, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-  - Name: Walk
-    FrameDuration: 0.1
-    Up:
-    - {fileID: -1072453619, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: 1819540236, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: 347103821, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: 656296193, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    Down:
-    - {fileID: -194006073, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: -825082573, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: 1962610520, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: 1002459690, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    Left:
-    - {fileID: 1129932775, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: 1653214380, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: -326657569, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-    - {fileID: 1224108889, guid: d57acbecc376e2245bf9fec80b3dd442, type: 3}
-  - Name: Fight
-    FrameDuration: 0.1
-    Up: []
-    Down: []
-    Left: []
+  AnimationsConfig: {fileID: 11400000, guid: ad13840ebc40b364faf560c69c466114, type: 2}
+  CurrentDirection: 0
+  FinishedAnimation: 0
+  AnimationTimer: 0
+  CurrentFrame: 0
 --- !u!114 &2993020200286564266
 MonoBehaviour:
   m_ObjectHideFlags: 0

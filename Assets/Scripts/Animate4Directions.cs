@@ -11,7 +11,7 @@ public class Animate4Directions : MonoBehaviour
     [SerializeField] private Direction InitialDirection;
     [SerializeField] private string InitialAnimation;
     [SerializeField] private bool ShouldResetFrameOnDirectionChange;
-    [SerializeField] private AnimationFrames[] AnimationsConfig;
+    [SerializeField] private Animate4DirectionsConfig AnimationsConfig;
 
     [Header("Debug inspect")]
     
@@ -22,8 +22,8 @@ public class Animate4Directions : MonoBehaviour
     [SerializeField] private Direction CurrentDirection;
 
     // Animation
-    [SerializeField] public string CurrentAnimation { get; private set; }
-    [SerializeField] private bool FinishedAnimation;
+    [SerializeField] public string CurrentAnimation;
+    [SerializeField] public bool FinishedAnimation;
     [SerializeField] private float AnimationTimer;
     [SerializeField] private int CurrentFrame;
 
@@ -31,7 +31,7 @@ public class Animate4Directions : MonoBehaviour
     {
         if (Velocity == null) {
             Velocity = GetComponents<IHasVelocity>()
-                .FirstOrDefault(c => c != this);
+                .FirstOrDefault(c => (object)c != this);
             if (Velocity == null) {
                 throw new Exception("There is no IHasVelocity component");
             }
@@ -47,7 +47,7 @@ public class Animate4Directions : MonoBehaviour
         CurrentAnimation = InitialAnimation;
 
         Animations = new Dictionary<string, AnimationFrames>();
-        foreach (var animation in AnimationsConfig) {
+        foreach (var animation in AnimationsConfig.AnimationConfig) {
             Animations.Add(animation.Name, animation);
         }
     }
@@ -125,33 +125,6 @@ public class Animate4Directions : MonoBehaviour
             return Direction.Down;
         } else {
             return null;
-        }
-    }
-}
-
-[Serializable]
-public struct AnimationFrames
-{
-    public string Name;
-    public float FrameDuration;
-    public Sprite[] Up;
-    public Sprite[] Down;
-    public Sprite[] Left;
-    // Right is the same as Left, but flipped
-
-    public (Sprite[], bool) GetSprites(Direction direction)
-    {
-        switch (direction) {
-            case Direction.Up:
-                return (Up, false);
-            case Direction.Down:
-                return (Down, false);
-            case Direction.Left:
-                return (Left, false);
-            case Direction.Right:
-                return (Left, true);
-            default:
-                throw new Exception("Invalid direction");
         }
     }
 }

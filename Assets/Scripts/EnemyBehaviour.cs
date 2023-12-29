@@ -40,6 +40,8 @@ public class EnemyBehaviour : MonoBehaviour, IHasVelocity
             velocity = new Vector3(0, -speed, 0);
         } else if (random == 4) {
             velocity = new Vector3(0, 0, 0);
+        } else if (random == 5) {
+            Animator.SetAnimation("Attack");
         }
     }
 
@@ -51,9 +53,14 @@ public class EnemyBehaviour : MonoBehaviour, IHasVelocity
     private void UpdateAnimation()
     {
         var currentAnimation = Animator.CurrentAnimation;
-        var isSpecialMove = currentAnimation == "SpecialMove";
+
+        var isAttacking = currentAnimation == "Attack";
+
+        var isSpecialMove = isAttacking;
         if (isSpecialMove) {
-            
+            if (Animator.FinishedAnimation) {
+                Animator.SetAnimation("Idle");
+            }
         } else {
             UpdateAnimationBasedOnVelocity();
         }
