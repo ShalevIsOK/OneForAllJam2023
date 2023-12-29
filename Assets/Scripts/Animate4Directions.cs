@@ -115,16 +115,14 @@ public class Animate4Directions : MonoBehaviour
 
     private Direction? GetDirection(Vector3 velocity)
     {
-        if (velocity.x > 0) {
-            return Direction.Right;
-        } else if (velocity.x < 0) {
-            return Direction.Left;
-        } else if (velocity.y > 0) {
-            return Direction.Up;
-        } else if (velocity.y < 0) {
-            return Direction.Down;
-        } else {
+        if (velocity == Vector3.zero) {
             return null;
+        }
+        var moreHorizontal = Math.Abs(velocity.x) > Math.Abs(velocity.y);
+        if (moreHorizontal) {
+            return velocity.x > 0 ? Direction.Right : Direction.Left;
+        } else {
+            return velocity.y > 0 ? Direction.Up : Direction.Down;
         }
     }
 }
