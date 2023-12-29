@@ -494,11 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e081312344f7c2468387f9ba8cb3bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-  cooldown: 5
-=======
   cooldown: 1
->>>>>>> Stashed changes
   knifeProjectile: {fileID: 1798806478157715685, guid: ad810145701115445a4735aa47087354, type: 3}
 --- !u!114 &322349962
 MonoBehaviour:
