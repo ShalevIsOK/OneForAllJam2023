@@ -4,27 +4,58 @@ using UnityEngine;
 
 public class StabProjectile : MonoBehaviour
 {
-    public MoveStates direction;
-    [SerializeField] float speed = 1f;
+    [SerializeField] float duration;
     [SerializeField] float distance = 2f;
+    [SerializeField] float stayBeforeDestroyDuration = 0.5f;
     private Vector2 target;
+    private Vector2 startLocation;
+    float timeElapsed = 0f;
 
-    private void Start()
+    public void Initialize(MoveStates direction)
     {
+        Debug.Log("init started");
+
+        startLocation = transform.position;
         switch (direction)
         {
             case MoveStates.Up:
-                target = new Vector2 (0, distance);
+                target = startLocation + new Vector2 (0, distance);
                 return;
             case MoveStates.Down:
-                target = new Vector2 (0, -distance);
+                target = startLocation + new Vector2 (0, -distance);
                 return;
             case MoveStates.Left:
-                target = new Vector2(-distance,0);
+                target = startLocation + new Vector2(-distance,0);
+                transform.Rotate(0, 0, 90);
                 return;
             case MoveStates.Right:
-                target = new Vector2(distance,0);
+                target = startLocation + new Vector2(distance, 0);
+                transform.Rotate(0, 0, 90);
                 return;
+        }
+    }
+
+    private void Update()
+    {
+        Debug.Log("update");
+        if (timeElapsed < duration)
+        {
+            Debug.Log("lerp started");
+            Vector2 newlocation;
+            float progress = timeElapsed/duration;
+            newlocation.x = Mathf.Lerp(startLocation.x, target.x, progress);
+            newlocation.y = Mathf.Lerp(startLocation.y, target.y, progress);
+            transform.position = newlocation;
+            timeElapsed += Time.deltaTime;
+        }
+        else if (timeElapsed-duration <= stayBeforeDestroyDuration)
+        {
+            transform.position = target;
+            timeElapsed += Time.deltaTime;
+        }
+        else
+        {
+            Destroy(this.gameObject);
         }
     }
 }
