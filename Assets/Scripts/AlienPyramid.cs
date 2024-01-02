@@ -11,13 +11,16 @@ public class AlienPyramid : MonoBehaviour
     [SerializeField] private bool StartBuilt;
     [SerializeField] private float EnemyTriggerDistance;
     [SerializeField] private GameObject ExplosionPrefab;
+    [SerializeField] private float growSpeed;
 
     [Header("Debug inspect")]
     [SerializeField] private bool IsBuilt;
+    [SerializeField] private float prefabScale;
 
     // Start is called before the first frame update
     void Start()
     {
+        prefabScale = transform.localScale.x;
         IsBuilt = StartBuilt;
         UpdateSprite();
     }
@@ -32,6 +35,13 @@ public class AlienPyramid : MonoBehaviour
     {
         UpdateSprite();
         if (IsBuilt) {
+            // grow over time
+            var currentScale = transform.localScale.x;
+            var newScale = currentScale + Time.deltaTime * growSpeed;
+            newScale = Mathf.Clamp(newScale, 0, prefabScale);
+            transform.localScale = Vector3.one * newScale;
+        }
+        if (GetIsBuiltAndReady()) {
             var allEnemies = FindObjectsOfType<EnemyBehaviour>();
             foreach (var enemy in allEnemies) {
                 var toEnemy = enemy.transform.position - transform.position;
@@ -39,6 +49,9 @@ public class AlienPyramid : MonoBehaviour
                 var distance = toEnemy.magnitude;
                 if (distance <= EnemyTriggerDistance) {
                     IsBuilt = false;
+                    // Reset scale
+                    transform.localScale = Vector3.one * prefabScale;
+                     
                     Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
                     break;
                 }
@@ -49,10 +62,17 @@ public class AlienPyramid : MonoBehaviour
     public void Repair()
     {
         IsBuilt = true;
+        // start small
+        transform.localScale = Vector3.one * prefabScale * 0.5f;
     }
 
     public bool GetIsBuilt()
     {
         return IsBuilt;
+    }
+
+    public bool GetIsBuiltAndReady()
+    {
+        return IsBuilt && transform.localScale.x >= prefabScale;
     }
 }

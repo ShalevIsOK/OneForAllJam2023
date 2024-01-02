@@ -1307,7 +1307,7 @@ MonoBehaviour:
   radius: 4.82
   spawnRate: 4
   spawnOnlyOnEdges: 1
-  limit: 3
+  limit: 4
 --- !u!1 &1916392239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,15 +1696,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7231781466939249000, guid: 76d8e05e5b58bee4a9fbe861fb6fb30b, type: 3}
       propertyPath: m_Color.b
-      value: 0.5840156
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7231781466939249000, guid: 76d8e05e5b58bee4a9fbe861fb6fb30b, type: 3}
       propertyPath: m_Color.g
-      value: 0.5840156
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7231781466939249000, guid: 76d8e05e5b58bee4a9fbe861fb6fb30b, type: 3}
       propertyPath: m_Color.r
-      value: 0.9622642
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8320176852577625367, guid: 76d8e05e5b58bee4a9fbe861fb6fb30b, type: 3}
       propertyPath: hitRadius
