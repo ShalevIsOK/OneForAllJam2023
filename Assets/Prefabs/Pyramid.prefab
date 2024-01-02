@@ -101,5 +101,5 @@ MonoBehaviour:
   Built: {fileID: -192629206, guid: ca77b326aaf809f4bbc47b5dd54ce007, type: 3}
   StartBuilt: 0
   EnemyTriggerDistance: 1
-  ExplosionPrefab: {fileID: 5257688708108172178, guid: 656f182f31641994387c6ed43fb23d82, type: 3}
+  ExplosionPrefab: {fileID: 5257688708108172178, guid: 33ed151b492a9ba409b99b7137d70259, type: 3}
   IsBuilt: 0

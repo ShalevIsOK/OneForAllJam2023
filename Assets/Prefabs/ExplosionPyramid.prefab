@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -4060449331104802976}
   - component: {fileID: 2229615206216269088}
   m_Layer: 0
-  m_Name: Explosion
+  m_Name: ExplosionPyramid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2019b301fe12c55439e04300695a894c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 2
+  radius: 2.5
 --- !u!95 &2229615206216269088
 Animator:
   serializedVersion: 5

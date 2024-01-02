@@ -1340,7 +1340,7 @@ MonoBehaviour:
   prefabToSpawn: {fileID: 3169207268137463157, guid: 80afc38a5efc1004f96470311eb77cca, type: 3}
   center: {fileID: 1916392241}
   radius: 10.88
-  spawnRate: 1.5
+  spawnRate: 1
   spawnOnlyOnEdges: 1
   limit: 0
 --- !u!4 &1916392241
